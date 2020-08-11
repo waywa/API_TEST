@@ -1,0 +1,18 @@
+[2020-Aug-08 13:35:19] INFO [<module>: log.py,27] hello
+[2020-Aug-08 13:42:45] DEBUG [_new_conn: connectionpool.py,208] Starting new HTTP connection (1): localhost
+[2020-Aug-08 13:42:46] DEBUG [_make_request: connectionpool.py,396] http://localhost:8000 "POST /users/ HTTP/1.1" 400 58
+[2020-Aug-08 13:42:46] DEBUG [_new_conn: connectionpool.py,208] Starting new HTTP connection (1): localhost
+[2020-Aug-08 13:42:47] DEBUG [_make_request: connectionpool.py,396] http://localhost:8000 "POST /users/ HTTP/1.1" 400 40
+[2020-Aug-08 13:42:47] DEBUG [_new_conn: connectionpool.py,208] Starting new HTTP connection (1): localhost
+[2020-Aug-08 13:42:48] DEBUG [_make_request: connectionpool.py,396] http://localhost:8000 "POST /users/ HTTP/1.1" 400 42
+[2020-Aug-08 13:42:48] DEBUG [_new_conn: connectionpool.py,208] Starting new HTTP connection (1): localhost
+[2020-Aug-08 13:42:49] DEBUG [_make_request: connectionpool.py,396] http://localhost:8000 "POST /users/ HTTP/1.1" 400 40
+[2020-Aug-08 13:44:08] DEBUG [_new_conn: connectionpool.py,208] Starting new HTTP connection (1): localhost
+[2020-Aug-08 13:44:09] DEBUG [_make_request: connectionpool.py,396] http://localhost:8000 "POST /users/ HTTP/1.1" 400 58
+[2020-Aug-08 13:44:09] ERROR [test_add_normal: test_add.py,29] test_add_normal：新增用户已存在，无法添加
+[2020-Aug-08 13:44:09] DEBUG [_new_conn: connectionpool.py,208] Starting new HTTP connection (1): localhost
+[2020-Aug-08 13:44:11] DEBUG [_make_request: connectionpool.py,396] http://localhost:8000 "POST /users/ HTTP/1.1" 400 40
+[2020-Aug-08 13:44:11] DEBUG [_new_conn: connectionpool.py,208] Starting new HTTP connection (1): localhost
+[2020-Aug-08 13:44:12] DEBUG [_make_request: connectionpool.py,396] http://localhost:8000 "POST /users/ HTTP/1.1" 400 42
+[2020-Aug-08 13:44:12] DEBUG [_new_conn: connectionpool.py,208] Starting new HTTP connection (1): localhost
+[2020-Aug-08 13:44:13] DEBUG [_make_request: connectionpool.py,396] http://localhost:8000 "POST /users/ HTTP/1.1" 400 40
